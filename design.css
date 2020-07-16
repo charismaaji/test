@@ -1,0 +1,83 @@
+body {
+    background-image: url(leaves-pattern.png);
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+}
+
+.container {
+    width: 1400px;
+    margin: auto;
+}
+
+/* --------------------------------------------------
+#Header 
+-------------------------------------------------- */
+.header .logo {
+    background-color: white;
+}
+.header .logo img{
+    width: 300px;
+}
+.menu{
+    border:1px solid #fbc687;
+    background-color: #fbc687;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.menu li{
+    display:inline;
+}
+.menu a{
+    display:inline-block;
+    padding:10px;
+    color:black;
+    text-decoration: none;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: bold;
+}
+
+/* --------------------------------------------------
+#About 
+-------------------------------------------------- */
+.about .hero {
+    position: relative;
+}
+.about .hero img {
+    width: 100%;
+}
+.about .description {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    background-color: #ffe8df;
+    text-align: center;
+    position: relative;
+    top: -4px;
+}
+
+/* --------------------------------------------------
+#Location
+-------------------------------------------------- */
+.location {
+    background-color: white;
+    position: relative;
+    top: -4px;
+}
+.location .peta img {
+    width: 30%;
+    position: relative;
+    left: 150px;
+    top: 60px;
+}
+.location .akses {
+    width: 400px;
+    height: 100px;
+    position: relative;
+    top: -250px;
+    left: 800px;
+
+}
